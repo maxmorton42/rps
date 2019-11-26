@@ -31,13 +31,13 @@ function checkComputer() {
   //  random number between 0-2 
   randomNum = Math.floor(Math.random() * 3);
 
-  // generate a random number and assign it to one of the 3 choices
+  // generate a random number
   if (randomNum === 0) { 
-    computer = "rock";
+    computer = "Rock";
   } else if (randomNum === 1) { 
-    computer = "paper";
+    computer = "Paper";
   } else { 
-    computer = "scissors";
+    computer = "Scissors";
   }
   cpuChoice.innerHTML = "Computer chose: " + computer;
 }
